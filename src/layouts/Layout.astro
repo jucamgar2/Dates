@@ -1,3 +1,6 @@
+---
+
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,18 +8,149 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Recuerdo de nuestras citas</title>
 	</head>
 	<body>
+		<div class="custom-select">
+			<h1 class="principal">
+				Selecciona de que mes quieres los recuerdos
+			</h1>
+
+			<div>
+				<select id="monthSelector">
+					<option value="X">Selecciona una opción</option>
+					<option value="Nov124">Noviembre 2024</option>
+					<option value="Dic224">Diciembre 2024</option>
+					<option value="3">Enero 2025</option>
+					<option value="4">Febrero 2025</option>
+					<option value="5">Marzo 2025</option>
+					<option value="6">Abril 2025</option>
+					<option value="7">Mayo 2025</option>
+					<option value="8">Junio 2025</option>
+					<option value="9">Julio 2025</option>
+					<option value="10">Agosto 2025</option>
+					<option value="11">Septiembre 2025</option>
+					<option value="12">Octubre 2025</option>
+					<option value="12">Noviembre 2025</option>
+					<option value="12">Diciembre 2025</option>
+				</select>
+			</div>
+		</div>
 		<slot />
 	</body>
 </html>
 
-<style>
+
+<style is:global>
 	html,
 	body {
 		margin: 0;
 		width: 100%;
 		height: 100%;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		background-image: url('/background.svg');
+		background-size: cover;
+		background-repeat: repeat;
+		color: #462d34;
+		
 	}
+
+	.principal{
+		font-size: 40px;
+		color: #462d34;
+	}
+
+	.custom-select{
+		text-align: center;
+		margin-bottom: -90px;
+	}
+
+	.custom-select select{
+		text-align: center;
+		background-color: #F4ACB7;
+		height: 50px;
+		width: 45%;
+		font-weight: bold;
+		color: #462d34;
+		border-radius: 10px;
+		border-color: #462d34;
+		font-size: 25px;
+	}
+
+	.calendar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+    }
+
+    .calendar table {
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    .calendar td {
+        width: 120px;
+        height: 120px;
+        border: 2px solid black;
+        position: relative;
+    }
+
+    .day-number {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .event {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: #4aec8ba4;
+        color: white;
+        font-size: 12px;
+        border-radius: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .event-text {
+        padding: 5px;
+    }
+
+    @media (max-width: 600px) {
+        .event {
+            width: 80%;
+            height: 70%;
+            border-radius: 5%; 
+            background-color: #4aec8ba4;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .event-text {
+            display: none; 
+        }
+    }
 </style>
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+	  const selector = document.getElementById("monthSelector");
+	  if(selector){
+		selector.addEventListener("change", (event) => {
+		const selectedMonth = (event.target as HTMLSelectElement).value;
+		if (selectedMonth!="X") {
+		  window.location.href = `/days/${selectedMonth}`;
+		}
+	  });
+	  }
+	  
+	});
+  </script>
