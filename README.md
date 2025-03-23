@@ -48,29 +48,7 @@ All commands are run from the root of the project, from a terminal:
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
 
-Citas:
-1/11/2024 - Fiesta de ines:
-- Empanadas de atún
-- Mi reacción al ver que me metía en MA
 
-6/11/2024 - Primera cita:
-- Palillos
-- Tengo mocos?
-- La pareja del sushi que estaba haciendo fotos
-
-16/11/2024 - Cumpleaños de Blanca:
-- Me agarró del brazo antes de entrar en el lidl
-- Felipe diciendo que quería verme más de vez en cuando por allí
-- El beso antes de entrar a casa de Laura
-- Pusimos el ramo en un cubo de la fregona
-
-
-20/11/2024 - Gladiator:
-- Volvimos a andar agarrados
-- Vimos la pelicula acurrucados
-
-22/11/2024 - Cenamos y fuimos a viapol:
-- Video de recogida en el coche
 
 28/11/2024 - Fuimos a tomar un café:
 - softlaunch
@@ -204,4 +182,9 @@ Citas:
 - Dimos un paseo bastante guay de camino al poke y al café
 
 21/3/2025 - Vino a casa:
+- Fuimos a donar sangre juntos
+- El ratito donde yo trabajaba y ella estaba con sus trabajos, pero aún así no dejabamos de estar en contacto
+
+22/3/2025 - Lagoh y casa de isa:
+- El abrazo en casa de Isa antes de jugar al juego de mímica
 
