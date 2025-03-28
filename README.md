@@ -47,58 +47,6 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-
-
-
-28/11/2024 - Fuimos a tomar un café:
-- softlaunch
-
-2/12/2024 - Misa madre de Blanca:
-- Conoccí a su prima
-- Su madrina me pidió la cuidase
-
-7/12/2024 - Cine y bolos:
-- Murió servita y aún así no me acordé en todo el día gracias a ella
-- Volvimos a ver una peli acurrucados
-- celebrabamos cuando el otro hacia una buena tirada en los bolos
-
-8/12/2024 - Blanca vino a casa:
-- Estuvimos acurrucados mirando el movil en mi sofa con toda mi familia en casa
-
-12/12/2024 - Love actually:
-- Sus amigas nos grabaron besandonos
-- Vimos la peli acurrucados 
-
-14/12/2024 - Somos novios:
-- Quiso conectar su movil al coche para poner ella la música y yo estaba super estresado
-- El rato que estuvimos enseñandonos el archivo de instagram en el coche
-
-20/12/2024 - Cumpleaños prima de Blanca:
-- Bailar si antes te hubiera conocido
-- Estar con sus amigas de la uni
-
-22/12/2024 - Cumpleaños de Patri:
-- La partida del pueblo duerme que ganamos juntos
-
-23/12/2024 - Blanca viene a casa:
-- Lo intentamos pero no pudimos
-
-27/12/2024 - Fui a casa de Blanca:
-- Tu padre y yo nos pusimos nerviosos al vernos
-
-28/12/2024 - Fiesta en Vicio:
-- Estabas preciosa con el vestido azul
-- El camino de vuelta donde os llevé a todas
-
-3/1/2025 - Blanca vino a casa:
-- Trabaje acostado contigo en la cama
-
-5/1/2025 - Cine + Disco de Bad Bunny:
-- Todas las emociones que me provocarón caada canción de Bad Bunny
-
-15/1/2025 - Misa de abuela:
-- La forma en la que me acompañaste, donde yo sin estar en contacto contigo te sentía
-
 18/1/2025 - Almuerzo con su familia y ramen:
 - El abrazo que me dió tu abuela al despedirnos
 - Tu abuela enseñandome toda la casa
@@ -188,3 +136,16 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 22/3/2025 - Lagoh y casa de isa:
 - El abrazo en casa de Isa antes de jugar al juego de mímica
 
+24/3/2025 - Operación de su abuelo y vino a casa:
+- El ratito que lloraste sobre mi pecho a moco tendido y lo guapa que estabas
+
+29/3/2025 - Ikea
+- 
+
+FALTA:
+Imagen 2/12/2024
+Imagen 20/12/2024
+Imagen 22/12/2024
+Imagen 23/12/2024
+Imagen 27/12/2024
+Imagen 28/12/2024
