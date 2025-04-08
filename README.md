@@ -67,9 +67,6 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 31/1/2025 - Blanca estaba triste y vino a casa
 - Tomamos el sol en mi balcón
 - Te colaste con el coche en el mercadona
- 
-1/2/2025 - Carmona V2:
-- Te dormiste sobre mi en el coche
 
 2/2/2025 - Fui a casa de Blanca:
 - Sentí que poco a poco le iba cayendo bien a su padre y me perdía el miedo
@@ -106,10 +103,6 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 28/2/2025 - Blanca vino a casa:
 - El rato que estuvimos acurrucados en el sofa mientras montabas un video de penita
 
-1/3/2025 - Comida con sus tios:
-- Volvimos a tener una conversación al volver de casa de Laura
-- Te quedaste dormida en mi hombro mientras volviamos
-
 4/3/2025 - Vino a casa:
 - Lo feliz que me sentí de poder ayudarla cuando se sentía mal
 
@@ -140,7 +133,12 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - El ratito que lloraste sobre mi pecho a moco tendido y lo guapa que estabas
 
 29/3/2025 - Ikea
-- 
+- El ratito sentados en un sofá de un salón de ikea
+- La forma en que nos imgaginabamos nuestro futuro juntos según lo que ibamos viendo en ikea
+- Como nos picabamos en cada juego 
+
+5/4/2025 - Cumpelaños de David
+- El camino loco en coche hasta la casa de Isa
 
 FALTA:
 Imagen 2/12/2024

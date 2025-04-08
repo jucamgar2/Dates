@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@trycourier/courier": "^6.4.0",
     "astro": "^5.4.2",
     "recuerdo-citas": "file:"
   }

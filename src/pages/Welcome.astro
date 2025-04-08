@@ -1,0 +1,133 @@
+---
+const paragraphs = [
+  "Como ya sabes falta poco para nuestro primer aniversario...",
+  "Y me preguntaba... ¿Tienes ganas de saber tu regalo?",
+  "Pues esto no te va a ayudar",
+  "¿O si?",
+  "Bueno, primero",
+  "¿Me dices tus preferencias para que pueda organizar la cita?"
+];
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Recuerdo de nuestras citas</title>
+	</head>
+	<body>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <p id="text"></p>
+                <button id="yesButton">Sí</button>
+                <button id="noButton">No</button>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+<style>
+    html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		background-image: url('/background.svg');
+		background-size: cover;
+		background-repeat: repeat;
+		color: #462d34;
+		
+	}
+
+    .popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.3s;
+    }
+
+    .popup-content {
+        position: absolute;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        height: 150px;
+        width: 200px;
+    }
+
+    .popup-content button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .popup-content button#yesButton {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .popup-content button#noButton {
+        background-color: #f44336;
+        color: white;
+    }
+</style>
+
+<script>
+    window.addEventListener('load', () => {
+        const popup = document.getElementById('popup');
+        popup.style.visibility = 'visible';
+        popup.style.opacity = '1';
+        const screenWidth = window.innerWidth;
+        const screenHeight = window.innerHeight;
+
+        document.getElementById('yesButton').addEventListener('click', () => {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfccKXSi90f9as9h-QbbGW2jBSwEWiYbSv3640mG9vqYChEpw/viewform?usp=header'; 
+        });
+
+        const popupContent = document.querySelector('.popup-content');
+        document.getElementById('noButton').addEventListener('click', () => {
+            popupContent.style.left = Math.random() * (screenWidth -200) + 'px';
+            popupContent.style.top = Math.random() * (screenHeight -200) + 'px';
+        });
+    });
+
+    const paragraphs = [
+    "Como ya sabes falta poco para nuestro primer aniversario...",
+    "Y me preguntaba... ¿Tienes ganas de saber tu regalo?",
+    "Pues esto no te va a ayudar",
+    "¿O si?",
+    "Bueno, primero",
+    "¿Me dices tus preferencias para que pueda organizar la cita?"
+  ];
+
+  let index = 0;
+  const textElement = document.getElementById("text");
+
+  function updateText() {
+    if (index < paragraphs.length) {
+      textElement.textContent = paragraphs[index];
+      index++;
+      setTimeout(updateText, 5000); // Espera 3 segundos antes de cambiar el texto
+    }
+  }
+
+  updateText();
+</script>
