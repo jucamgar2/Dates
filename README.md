@@ -47,9 +47,6 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-2/2/2025 - Fui a casa de Blanca:
-- Sentí que poco a poco le iba cayendo bien a su padre y me perdía el miedo
-
 8/2/2025 - Palaciego en peligro:
 - Lloraste cuando volvimos de casa de Laura
 
