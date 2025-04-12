@@ -47,27 +47,6 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-18/1/2025 - Almuerzo con su familia y ramen:
-- El abrazo que me dió tu abuela al despedirnos
-- Tu abuela enseñandome toda la casa
-- Comí ramen por primera vez
-
-23/1/2025 - Fuimos al gym:
-- Lo mucho que te esforzaste por coger más pesos y mas repeticiones
-- Hablamos por primera vez del futuro
-
-25/1/2025 - Viapol:
-- Fuimos juntos a comprar condones
-- Nos perdimos al volver
-
-26/1/2025 - Carmona:
-- Lo mal que lo pasamos por la mañana porque todo estaba cortado
-- Tu padre me invitó a quedarme en tu casa por la tarde
-
-31/1/2025 - Blanca estaba triste y vino a casa
-- Tomamos el sol en mi balcón
-- Te colaste con el coche en el mercadona
-
 2/2/2025 - Fui a casa de Blanca:
 - Sentí que poco a poco le iba cayendo bien a su padre y me perdía el miedo
 
@@ -140,10 +119,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 5/4/2025 - Cumpelaños de David
 - El camino loco en coche hasta la casa de Isa
 
-FALTA:
-Imagen 2/12/2024
-Imagen 20/12/2024
-Imagen 22/12/2024
-Imagen 23/12/2024
-Imagen 27/12/2024
-Imagen 28/12/2024
+11/4/2025 - Vino a mi casa y cumpleaños de Felipe
+- La cama mojada
+- La partida que ganamos jugando al juego de Hitler
+
