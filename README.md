@@ -47,28 +47,13 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-8/2/2025 - Palaciego en peligro:
-- Lloraste cuando volvimos de casa de Laura
-
 9/2/2025 - Organización cosas de Blanca:
 - El rato hablando con tu prima
 - Las amigas de madre me agradecieron que os ayudase
 
-14/2/2025 - San valentin 
-- La comida del libanes
-- Lloré por tu regalo
-
 16/2/2025 - Fuí a casa de Blanca:
 - Te pude presentar todo el canva
 - Te hice el primer coulant
-
-20/2/2025 - Betis Genk:
-- La charla en tu patio donde sexualizabamos todo
-- La charla sobre tu TFG
-
-22/2/2025 - Sanlucar:
-- Todas las risas de ese día
-- Me dabas patatas mientras conducía
 
 26/2/2025 - Masaje a Blanca:
 - Me senti muy bien dandote un masaje
@@ -120,3 +105,11 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - La cama mojada
 - La partida que ganamos jugando al juego de Hitler
 
+13/4/2025 - Domingo de ramos
+- Mi vecina te dijo que eras muy guapa
+
+14/4/2025 - Lunes Santo
+- Conocí a más gente de tu familía
+- Te deje la chaqueta de mi traje para que no tuvieras frio
+
+16/4/2025 - Miercoles Santo
