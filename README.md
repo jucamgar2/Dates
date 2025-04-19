@@ -104,12 +104,3 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 11/4/2025 - Vino a mi casa y cumpleaños de Felipe
 - La cama mojada
 - La partida que ganamos jugando al juego de Hitler
-
-13/4/2025 - Domingo de ramos
-- Mi vecina te dijo que eras muy guapa
-
-14/4/2025 - Lunes Santo
-- Conocí a más gente de tu familía
-- Te deje la chaqueta de mi traje para que no tuvieras frio
-
-16/4/2025 - Miercoles Santo
