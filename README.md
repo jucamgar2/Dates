@@ -55,21 +55,8 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - Te pude presentar todo el canva
 - Te hice el primer coulant
 
-26/2/2025 - Masaje a Blanca:
-- Me senti muy bien dandote un masaje
-
-27/2/2025 - kick off sopra:
-- Me encantó estar con tus agmias y con juanlu y que todo fuese tan bien
-
-28/2/2025 - Blanca vino a casa:
-- El rato que estuvimos acurrucados en el sofa mientras montabas un video de penita
-
 4/3/2025 - Vino a casa:
 - Lo feliz que me sentí de poder ayudarla cuando se sentía mal
-
-7/3/2025 - Fuimos a su gym:
-- El rato de risas haciendo crumbl cookies
-- Haccer la compra juntos
 
 9/3/2025 - Fuimos a ver a su abuelo:
 - Las focaccias estaban buenisimas
@@ -92,15 +79,3 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 24/3/2025 - Operación de su abuelo y vino a casa:
 - El ratito que lloraste sobre mi pecho a moco tendido y lo guapa que estabas
-
-29/3/2025 - Ikea
-- El ratito sentados en un sofá de un salón de ikea
-- La forma en que nos imgaginabamos nuestro futuro juntos según lo que ibamos viendo en ikea
-- Como nos picabamos en cada juego 
-
-5/4/2025 - Cumpelaños de David
-- El camino loco en coche hasta la casa de Isa
-
-11/4/2025 - Vino a mi casa y cumpleaños de Felipe
-- La cama mojada
-- La partida que ganamos jugando al juego de Hitler
