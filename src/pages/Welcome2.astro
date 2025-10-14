@@ -22,7 +22,8 @@ const paragraphs = [
         <div id="popup" class="popup">
             <div class="popup-content">
                 <p id="text"></p>
-                <button id="docButton">Te ayudo</button>
+                <button id="yesButton">Sí</button>
+                <button id="noButton">No</button>
             </div>
         </div>
 
@@ -83,11 +84,6 @@ const paragraphs = [
         color: white;
     }
 
-    .pop-up-content button#docButton {
-        background-color: #2178f9;
-        color: white;
-    }
-
     .popup-content button#noButton {
         background-color: #f44336;
         color: white;
@@ -102,23 +98,29 @@ const paragraphs = [
     const screenWidth = window.innerWidth;
     const screenHeight = window.innerHeight;
 
-    const docButton = document.getElementById('docButton');
-   
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
 
     // 🔹 Ocultamos botones al inicio
-    docButton.style.display = "none";
+    yesButton.style.display = "none";
+    noButton.style.display = "none";
 
-    docButton.addEventListener('click', () => {
-      window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfccKXSi90f9as9h-QbbGW2jBSwEWiYbSv3640mG9vqYChEpw/viewform?usp=header'; 
+    yesButton.addEventListener('click', () => {
+      window.location.href = '/days/Nov124'; 
+    });
+
+    const popupContent = document.querySelector('.popup-content');
+    noButton.addEventListener('click', () => {
+      popupContent.style.left = Math.random() * (screenWidth -200) + 'px';
+      popupContent.style.top = Math.random() * (screenHeight -200) + 'px';
     });
 
     const paragraphs = [
-      "Como ya sabes falta poco para nuestro primer aniversario...",
-      "Y me preguntaba... ¿Tienes ganas de saber tu regalo?",
-      "Pues esto no te va a ayudar",
-      "¿O si?",
-      "Bueno, primero",
-      "¿Me dices tus preferencias para que pueda organizar la cita?"
+      "Bueno pues oficialmente hoy es nuestro aniversario",
+      "Yo creo que ya va siendo hora de que sepas cual va a ser tu regalo",
+      "¿Te ayudara esta página a saber tu regalo?",
+      "¿Quien sabe?",
+      "¿Estas lista?",
     ];
 
     let index = 0;
@@ -130,11 +132,12 @@ const paragraphs = [
 
         // 🔹 Si es la última frase, mostramos los botones
         if (index === paragraphs.length - 1) {
-          docButton.style.display = "inline-block";
+          yesButton.style.display = "inline-block";
+          noButton.style.display = "inline-block";
         }
 
         index++;
-        setTimeout(updateText, 3500);
+        setTimeout(updateText, 5000);
       }
     }
 
