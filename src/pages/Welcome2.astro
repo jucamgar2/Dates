@@ -22,8 +22,9 @@ const paragraphs = [
         <div id="popup" class="popup">
             <div class="popup-content">
                 <p id="text"></p>
-                <button id="yesButton">Sí</button>
+                <button id="yesButton">Si</button>
                 <button id="noButton">No</button>
+                <button id="hintButton">Pista</button>
             </div>
         </div>
 
@@ -88,6 +89,11 @@ const paragraphs = [
         background-color: #f44336;
         color: white;
     }
+
+    .popup-content button#hintButton {
+        background-color: #366ff4;
+        color: white;
+    }
 </style>
 
 <script>
@@ -100,10 +106,12 @@ const paragraphs = [
 
     const yesButton = document.getElementById('yesButton');
     const noButton = document.getElementById('noButton');
+    const hintButton = document.getElementById('hintButton');
 
     // 🔹 Ocultamos botones al inicio
     yesButton.style.display = "none";
     noButton.style.display = "none";
+    hintButton.style.display = "none"
 
     yesButton.addEventListener('click', () => {
       window.location.href = '/days/Nov124'; 
@@ -115,11 +123,15 @@ const paragraphs = [
       popupContent.style.top = Math.random() * (screenHeight -200) + 'px';
     });
 
+    hintButton?.addEventListener('click', () =>{
+      window.location.href = "/Hint";
+    });
+
     const paragraphs = [
-      "Bueno pues oficialmente hoy es nuestro aniversario",
-      "Yo creo que ya va siendo hora de que sepas cual va a ser tu regalo",
-      "¿Te ayudara esta página a saber tu regalo?",
-      "¿Quien sabe?",
+      "Seguimos cumpliendo aniversarios",
+      "Y tu querras saber cual será tu regalo",
+      "Esta página puede ser un adelanto",
+      "Dicho esto, puede que te imagines algo, pero no es lo que tu crees",
       "¿Estas lista?",
     ];
 
@@ -134,6 +146,7 @@ const paragraphs = [
         if (index === paragraphs.length - 1) {
           yesButton.style.display = "inline-block";
           noButton.style.display = "inline-block";
+          hintButton.style.display = "inline-block";
         }
 
         index++;
